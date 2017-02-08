@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/2/8 19:53:40。
+     1>项目“E:\qtplayer\videowidget+ui----+标题栏大小+qss+可调整大小+slider定型\videowidget.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_controller.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_controller.cpp, GeneratedFiles\Release\moc_controller.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_playlistmodel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_playlistmodel.cpp, GeneratedFiles\Release\moc_playlistmodel.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_videoplayer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_videoplayer.cpp, GeneratedFiles\Release\moc_videoplayer.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_widget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_widget.cpp, GeneratedFiles\Release\moc_widget.cpp.
+     1>ClCompile:
+         F:\tools\cpp\visual studio 2013\vs\VC\bin\CL.exe /c /I. /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore /Irelease /I"F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 controller.cpp GeneratedFiles\Release\moc_controller.cpp GeneratedFiles\Release\moc_playlistmodel.cpp GeneratedFiles\Release\moc_videoplayer.cpp GeneratedFiles\Release\moc_widget.cpp main.cpp playlistmodel.cpp videoplayer.cpp widget.cpp
+         controller.cpp
+         moc_controller.cpp
+         moc_playlistmodel.cpp
+         moc_videoplayer.cpp
+         moc_widget.cpp
+         main.cpp
+         playlistmodel.cpp
+         videoplayer.cpp
+         widget.cpp
+         正在生成代码...
+         F:\tools\cpp\visual studio 2013\vs\VC\bin\CL.exe /c /I. /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork /IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore /Irelease /I"F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 GeneratedFiles\qrc_myplayer.cpp
+         qrc_myplayer.cpp
+       Link:
+         F:\tools\cpp\visual studio 2013\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\videowidget.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib /LIBPATH:F:/tools/qt/qt5.5.1win32/sys/5.5/msvc2013/lib /LIBPATH:F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\qtmain.lib shell32.lib F:/tools/qt/qt5.5.1win32/sys/5.5/msvc2013/lib\Qt5Core.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5MultimediaWidgets.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Multimedia.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Widgets.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Gui.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Network.lib F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\videowidget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Release\controller.obj
+         Win32\Release\qrc_myplayer.obj
+         Win32\Release\moc_controller.obj
+         Win32\Release\moc_playlistmodel.obj
+         Win32\Release\moc_videoplayer.obj
+         Win32\Release\moc_widget.obj
+         Win32\Release\main.obj
+         Win32\Release\playlistmodel.obj
+         Win32\Release\videoplayer.obj
+         Win32\Release\widget.obj
+         videowidget.vcxproj -> E:\qtplayer\videowidget+ui----+标题栏大小+qss+可调整大小+slider定型\release\videowidget.exe
+     1>已完成生成项目“E:\qtplayer\videowidget+ui----+标题栏大小+qss+可调整大小+slider定型\videowidget.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:52.15

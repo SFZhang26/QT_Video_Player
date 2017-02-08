@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="/">
+    <file>stylesheet.qss</file>
+    <file>videowidget.png</file>
+    <file>cog.png</file>
+    <file>play_hover.png</file>
+    <file>volume.png</file>
+    <file>contract.png</file>
+    <file>cross.png</file>
+    <file>ellipsis.png</file>
+    <file>expand.png</file>
+    <file>file.png</file>
+    <file>folder.png</file>
+    <file>maximize.png</file>
+    <file>minimize.png</file>
+    <file>minus.png</file>
+    <file>mute.png</file>
+    <file>paper.png</file>
+    <file>pause.png</file>
+    <file>play.png</file>
+    <file>plus.png</file>
+    <file>skip-back.png</file>
+    <file>skip-forward.png</file>
+    <file>stop.png</file>
+    <file>sun.png</file>
+    <file>trash.png</file>
+  </qresource>
+</RCC>

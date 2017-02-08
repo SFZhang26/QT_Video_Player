@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D58597B2-1758-392A-84CB-BB5570E72887}</ProjectGuid>
+    <RootNamespace>videowidget</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <PlatformToolSet>v120</PlatformToolSet>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>videowidget</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <PlatformToolSet>v120</PlatformToolSet>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>videowidget</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">videowidget</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">videowidget</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\qt\qt5win32sys\sys\5.5\msvc2013\include;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtMultimedia;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtWidgets;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtGui;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtANGLE;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtNetwork;E:\qt\qt5win32sys\sys\5.5\msvc2013\include\QtCore;debug;E:\qt\qt5win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <ReferencePath>$(VC_ReferencesPath_x86)</ReferencePath>
+    <LibraryPath>E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\qtmaind.lib;shell32.lib;E:\qt\qt5win32sys\sys\5.5/msvc2013/lib\Qt5Cored.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5MultimediaWidgetsd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Multimediad.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Widgetsd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Guid.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Networkd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Cored.lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+    <ExecutablePath>$(VC_LibraryPath_x86);$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore;release;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013;.\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:strictStrings -w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\qtmain.lib;shell32.lib;F:/tools/qt/qt5.5.1win32/sys/5.5/msvc2013/lib\Qt5Core.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5MultimediaWidgets.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Multimedia.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Widgets.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Gui.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Network.lib;F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib;F:/tools/qt/qt5.5.1win32/sys/5.5/msvc2013/lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\videowidget.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_NO_DEBUG;QT_MULTIMEDIAWIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimedia;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtWidgets;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtGui;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtANGLE;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtNetwork;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtCore;debug;F:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013;.\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\qtmaind.lib;shell32.lib;E:\qt\qt5win32sys\sys\5.5/msvc2013/lib\Qt5Cored.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5MultimediaWidgetsd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Multimediad.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Widgetsd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Guid.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Networkd.lib;E:\qt\qt5win32sys\sys\5.5\msvc2013\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\lib;F:/tools/qt/qt5.5.1win32/sys/5.5/msvc2013/lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\videowidget.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_MULTIMEDIAWIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_controller.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playlistmodel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoplayer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_widget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_myplayer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_controller.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playlistmodel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoplayer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_widget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="playlistmodel.cpp" />
+    <ClCompile Include="videoplayer.cpp" />
+    <ClCompile Include="widget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="videoplayer.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+if errorlevel 1 goto VCEnd
+if errorlevel 1 goto VCEnd
+endlocal
+"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG  "-I." "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore" "-I.\release" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing videoplayer.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+if errorlevel 1 goto VCEnd
+if errorlevel 1 goto VCEnd
+endlocal
+"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB  "-I." "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtCore" "-I.\debug" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing videoplayer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui\myplayer.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="playlistmodel.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing playlistmodel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB "-I." "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtCore" "-I.\debug" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing playlistmodel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore" "-I.\release" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+    </CustomBuild>
+    <CustomBuild Include="widget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing widget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB "-I." "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtCore" "-I.\debug" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing widget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore" "-I.\release" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+    </CustomBuild>
+    <CustomBuild Include="controller.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing controller.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB "-I." "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\include\QtCore" "-I.\debug" "-IF:\tools\qt\qt5.5.1win32sys\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing controller.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimediaWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtMultimedia" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtWidgets" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtGui" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtANGLE" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtNetwork" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\include\QtCore" "-I.\release" "-IF:\tools\qt\qt5.5.1win32\sys\5.5\msvc2013\mkspecs\win32-msvc2013" "-I.\GeneratedFiles"</Command>
+    </CustomBuild>
+    <ClInclude Include="GeneratedFiles\ui_myplayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui\myplayer.qrc">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);.\ui\cog.png;.\ui\volume.png;.\ui\contract.png;.\ui\cross.png;.\ui\ellipsis.png;.\ui\expand.png;.\ui\file.png;.\ui\folder.png;.\ui\maximize.png;.\ui\minimize.png;.\ui\minus.png;.\ui\mute.png;.\ui\paper.png;.\ui\pause.png;.\ui\play.png;.\ui\plus.png;.\ui\skip-back.png;.\ui\skip-forward.png;.\ui\stop.png;.\ui\sun.png;.\ui\trash.png;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(FullPath);.\ui\cog.png;.\ui\volume.png;.\ui\contract.png;.\ui\cross.png;.\ui\ellipsis.png;.\ui\expand.png;.\ui\file.png;.\ui\folder.png;.\ui\maximize.png;.\ui\minimize.png;.\ui\minus.png;.\ui\mute.png;.\ui\paper.png;.\ui\pause.png;.\ui\play.png;.\ui\plus.png;.\ui\skip-back.png;.\ui\skip-forward.png;.\ui\stop.png;.\ui\sun.png;.\ui\trash.png;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ui\cog.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\contract.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\cross.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\ellipsis.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\expand.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\file.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\folder.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\maximize.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\minimize.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\minus.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\mute.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\paper.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\pause.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\play.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\plus.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\skip-back.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\skip-forward.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\stop.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\sun.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\trash.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="ui\volume.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" Qt5Version_x0020_Win32="msvc_32" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
